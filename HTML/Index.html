@@ -1,18 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Accueil</title>
         <link rel="stylesheet" href="../CSS/Index.css">
+        <style>
+            .Link-Sujet
+            {
+                font-size: 100px;
+                position: absolute;
+                width: 450px;
+                height: 930px;
+                right: 1px;
+                top: 350px; 
+            }
+            .Link-Slugs
+            {
+                font-size: 100px;
+                position: absolute;
+                width: 450px;
+                height: 930px;
+                right: 1px;
+                top: 515px; 
+            }
+            .Link-Personnages
+            {
+                font-size: 100px;
+                position: absolute;
+                width: 450px;
+                height: 930px;
+                right: 140px;
+                top: 650px; 
+            }
+        </style>
     </head>
     <body>
         <header>
-        <center><img src="/images/Logo Slugterra.png" alt="Titre Slugterra"></center>
+            <center><img src="/images/Logo Slugterra.png" alt="Titre Slugterra"></center>
         </header>
         <main>
-        <img id="shell" src="/images/Image capsule slug.webp" alt="image capsule de slugs">
-        <div id="rectangle"></div>
+            <div>
+                <div id="rectangle"></div>
+                <img id="shell" src="/images/Image capsule slug.webp" alt="image capsule de slugs">
+                <a href="Sujet.html" class="Link-Sujet">Sujet</a>
+                <a href="Slugs.html" class="Link-Slugs">Slugs</a>
+                <a href="Personnages.html" class="Link-Personnages">Personnages</a>
+            </div>
         </main>
     </body>
 </html>
