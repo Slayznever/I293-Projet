@@ -74,4 +74,62 @@ body {
         {
             color: #ffffffd5;
         }
-     
+        .card.personnage {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 0;
+        background-color: #ca2d1133;
+        box-shadow: rgba(107, 21, 21, 0.651);
+        }
+        .card.personnage img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+       
+        .sidebar {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 220px;
+            height: 100vh;
+            background: rgba(107, 21, 21, 0.651);
+            box-shadow:rgba(0,0,0,0.5);
+            padding-top: 60px;
+            z-index: 1000;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 180px 10px;
+            color: #f2f2f2;
+            text-decoration: none;
+            font-size: 40px;
+        }
+
+        .sidebar a:hover {
+            background: #830b0b70;
+        }
+
+        .sidebar a.active {
+            background: #ff000015;
+            color: #ffffff;
+        }
+        main {
+            margin-right: 24px;
+        }
+

@@ -65,3 +65,45 @@ body {
         {
             color:#00eaff ;
         }
+        
+        .sidebar {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 220px;
+            height: 100vh;
+            background: rgba(42, 18, 128, 0.178);
+            box-shadow:rgba(11, 25, 104, 0.986);
+            padding-top: 60px;
+            z-index: 1000;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin: 10px 0;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 180px 10px;
+            color: #00eaff;
+            text-decoration: none;
+            font-size: 40px;
+        }
+
+        .sidebar a:hover {
+            background: rgba(20, 6, 138, 0.103);
+        }
+
+        .sidebar a.active {
+            background: rgba(19, 6, 138, 0.288);
+            color: #00eaff;
+        }
+        main {
+            margin-right: 24px;
+        }
