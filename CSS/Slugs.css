@@ -30,6 +30,50 @@ main
     padding: 50px 15%;
             font-size: 30px;
 }
+h2 {
+            color: #ca2d11;
+            margin-bottom: 15px;
+            border-left: 5px solid #ca2d11;
+            padding-left: 10px;
+        }
+
+        .card {
+            background: rgba(107, 21, 21, 0.651);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgb(110, 4, 4);
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+        a
+        {
+            color:#00eaff ;
+        }
+        
+        ul
+        {
+            color: #ffffffd5;
+        }
+        .card.slugs {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 20px 0;
+        background-color: #ca2d1133;
+        box-shadow: rgba(107, 21, 21, 0.651);
+        }
+        .card.slugs img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
 footer {
     background-color: #000;
     text-align: center;

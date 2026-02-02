@@ -71,10 +71,17 @@ body {
             right: 0;
             top: 0;
             width: 220px;
+<<<<<<< HEAD
             height: 1000px;
             background: rgba(42, 18, 128, 0.178);
             box-shadow:rgba(11, 25, 104, 0.986);
             padding-top: 40px;
+=======
+            height: 100vh;
+            background: rgba(42, 18, 128, 0.178);
+            box-shadow:rgba(11, 25, 104, 0.986);
+            padding-top: 60px;
+>>>>>>> 3c0709adbc1173ca56052e529eda1cace40dfabd
             z-index: 1000;
         }
 
@@ -90,15 +97,30 @@ body {
 
         .sidebar a {
             display: block;
+<<<<<<< HEAD
             padding: 100px 10px;
             color: #00eaff;
             text-decoration: none;
             font-size: 20px;
+=======
+            padding: 180px 10px;
+            color: #00eaff;
+            text-decoration: none;
+            font-size: 40px;
+>>>>>>> 3c0709adbc1173ca56052e529eda1cace40dfabd
         }
 
         .sidebar a:hover {
             background: rgba(20, 6, 138, 0.103);
         }
+<<<<<<< HEAD
+=======
+
+        .sidebar a.active {
+            background: rgba(19, 6, 138, 0.288);
+            color: #00eaff;
+        }
+>>>>>>> 3c0709adbc1173ca56052e529eda1cace40dfabd
         main {
             margin-right: 24px;
         }
