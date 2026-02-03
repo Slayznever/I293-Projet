@@ -37,12 +37,12 @@ h2 {
     padding-left: 10px;
 }
 
-.card {
-    background: rgba(46, 15, 184, 0.37);
+.card.fire {
+    background: rgba(128, 41, 19, 0.37);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
-    box-shadow: 0 0 20px rgba(20, 41, 235, 0.342);
+    box-shadow: 0 0 20px rgba(161, 13, 13, 0.342);
 }
 
 ul {
@@ -51,15 +51,15 @@ ul {
 a{
     color:#00eaff ;
 }
-.card.slugs {
+.card.slugs.fire {
 display: flex;
 align-items: center;
 gap: 20px;
 border-radius: 15px;
 padding: 15px;
 margin: 20px 0;
-background-color: #1f0d8350;
-box-shadow: rgba(46, 15, 184, 0.37);
+background-color: #830d0d38;
+box-shadow: rgba(165, 66, 66, 0.418);
 }
 .card.slugs img {
     width: 300px;
@@ -121,5 +121,55 @@ main {
 #burpy
 {
     color: #ffffff;
+}
+.card.burpy {
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+padding: 15px;
+margin: 20px 0;
+background-color: #830d0d38;
+box-shadow: rgba(165, 66, 66, 0.418);
+}
+.card.burpy img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card.slugs.water {
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+padding: 15px;
+margin: 20px 0;
+background-color: #1f0d8350;
+box-shadow: rgba(46, 15, 184, 0.37);
+}
+.card.water {
+    background: rgba(41, 40, 138, 0.37);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #1f0d8350;
+}
+.card.slugs.earth {
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+padding: 15px;
+margin: 20px 0;
+background-color: #854d0eb0;
+box-shadow: #75400350;
+}
+.card.earth {
+    background: #75400350;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #752c0250;
 }
 
