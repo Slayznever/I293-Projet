@@ -173,3 +173,38 @@ box-shadow: #75400350;
     box-shadow: 0 0 20px #752c0250;
 }
 
+.card.slugs.air {
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+padding: 15px;
+margin: 20px 0;
+background-color: #cecac56e;
+box-shadow: #d4d2d050;
+}
+.card.air {
+    background: #f7f2f050;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #f5f2f250;
+}
+.card.slugs.energie {
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 15px;
+padding: 15px;
+margin: 20px 0;
+background-color: #1c91394b;
+box-shadow: #1e8a4f50;
+}
+.card.energie {
+    background: #0f8a4250;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px #118d4050;
+}
+
