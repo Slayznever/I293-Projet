@@ -1,26 +1,77 @@
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
-    <header>
-
-    </header>
-    <nav class="sidebar">
-                <ul>
-                    <li><a href="Index.html">Accueil</a></li>
-                    <li><a href="Sujet.html">Sujet</a></li>
-                    <li><a href="Personnages.html" class="active">Personnages</a></li>
-                    <li><a href="Slugs.html">Slugs</a></li>
-                </ul>
-            </nav>
-    <main>
-
-    </main>
-    <footer>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/Contact.css">
         
-    </footer>
-</body>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Slugterra – Centre de Communication</h1>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="Index.html">Accueil</a></li>
+                <li><a href="Sujet.html">Sujet</a></li>
+                <li><a href="Personnages.html" class="active">Personnages</a></li>
+                <li><a href="Slugs.html">Slugs</a></li>
+            </ul>
+        </nav>
+        <main>
+                <section class="description">
+                    <h2>Description</h2>
+                        <p>
+
+                            Une petite présentation de l'auteur:
+                            Luca Pardo <br>
+                            16 ans <br>
+                            Né le 8 septembre 2009 à Montreux. <br>
+                            Mail:<strong> luca.pardo@eduvaud.ch</strong>
+                        </p>
+                </section>
+           
+
+            <section class="container">
+                <div class="slug">🐌</div>
+                <h2>Contacte un Shane du Monde Souterrain</h2>
+                <p>
+                    Besoin d’aide, d’informations ou d’envoyer un message depuis les cavernes ?
+                    Utilise le terminal ci-dessous pour transmettre ton message à Slugterra.
+                </p>
+    
+                <form>
+                    <article>
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom" placeholder="Ex : Eli Shane" required>
+                    </article>
+    
+                    <article>
+                        <label for="email">Mail</label>
+                        <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
+                    </article>
+    
+                    <article>
+                        <label for="slug">Slug préféré</label>
+                        <input type="text" id="slug" name="slug" placeholder="Inferno, Frostcrawler, Tazerling...">
+                    </article>
+    
+                    <article>
+                        <label for="message">Message crypté</label>
+                        <textarea id="message" name="message" placeholder="Tape ton message ici..." required></textarea>
+                    </article>
+    
+                    <button type="submit">Envoyer vers Slugterra</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+           <p>Site fan non officiel • <span>Slugterra</span> • <a href="Index.html">Accueil</a></p>
+            <p><a href="https://www.youtube.com/watch?v=xuLZ0uMkZ-U&list=PL3RcJgHvbHGiB8F4ypS2GBd4q1wDLULUm&index=1&pp=iAQB">regarder le premier episode de SlugTerra</a></p>
+        </footer>
+
+    </body>
 </html>

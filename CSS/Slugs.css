@@ -68,11 +68,14 @@ box-shadow: rgba(165, 66, 66, 0.418);
     border-radius: 10px;
 }
 footer {
+    position: relative;
+    z-index: 3;
     background-color: #000;
     text-align: center;
-    padding: 20px;
+    padding: 11px;
     font-size: 20px;
     color: #aaaaaa;
+    
 }
 
 footer span {
@@ -91,7 +94,7 @@ a
     background: rgba(25, 117, 236, 0.13);
     box-shadow:rgba(11, 36, 104, 0.986);
     padding-top: 40px;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .sidebar ul {
@@ -198,7 +201,7 @@ border-radius: 15px;
 padding: 15px;
 margin: 20px 0;
 background-color: #1c91394b;
-box-shadow: #1e8a4f50;
+box-shadow: #1e8a4250;
 }
 .card.energie {
     background: #0f8a4250;

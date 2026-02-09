@@ -51,19 +51,21 @@ body {
         }
 
         footer {
+            position: relative;
+            z-index: 3;
             background-color: #000;
             text-align: center;
-            padding: 20px;
-            font-size: 30px;
-            color: #aaa;
+            padding: 11px;
+            font-size: 20px;
+            color: #aaaaaa; 
         }
 
         footer span {
-            color: #00eaff;
+        color: #00eaff;
         }
-        a
+        a   
         {
-            color:#00eaff ;
+        color:#00eaff ;
         }
         
         .sidebar {
@@ -72,10 +74,10 @@ body {
             top: 0;
             width: 220px;
             height: 1000px;
-            background: rgba(42, 18, 128, 0.178);
+            background: rgba(42, 18, 128, 0.384);
             box-shadow:rgba(11, 25, 104, 0.986);
             padding-top: 40px;
-            z-index: 1000;
+            z-index: 1;
         }
 
         .sidebar ul {

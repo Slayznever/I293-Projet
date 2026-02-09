@@ -1,41 +1,51 @@
 html, body {
     margin:0;
-    height: 100%;
+    min-height: 100%;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
     background-image: url(/images/Image\ slugs\ paysage.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
 }
 main {
-    height: 90vh;
+    flex: 1;
     display: flex;
-    width: fit-content;
     flex-direction: row;
     gap: 20px;
     padding: 100px;
 }
 header
 {
+    position: relative;
     display: flex;
     justify-content: center;
+    z-index: 3;
 }
 #LogoSlugterra {
-    width: 700px;
+    width: 580px;
 }
 .card {
             background: #06868a69;
-            padding: 25px;
+            padding: 20px;
             border-radius: 15px;
             box-shadow: 0 0 20px #1092cefb;
-            font-size: 50px;
+            font-size: 30px;
  }
 footer {
+    position: relative;
     background-color: #000;
     text-align: center;
-    padding: 20px;
-    font-size: 30px;
+    padding: 11px;
+    font-size: 20px;
     color: #aaaaaa;
+    z-index: 3;
+    
 }
 
 footer span {
@@ -51,10 +61,10 @@ a
             top: 0;
             width: 220px;
             height: 1000px;
-            background: rgba(25, 117, 236, 0.13);
+            background: rgba(25, 116, 236, 0.479);
             box-shadow:rgba(11, 36, 104, 0.986);
             padding-top: 40px;
-            z-index: 1000;
+            z-index: 1;
         }
 
         .sidebar ul {

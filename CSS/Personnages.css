@@ -52,11 +52,14 @@ body {
         }
 
         footer {
-            background-color: #000;
-            text-align: center;
-            padding: 20px;
-            font-size: 30px;
-            color: #aaa;
+            position: relative;
+            z-index: 3;
+        background-color: #000;
+        text-align: center;
+        padding: 11px;
+        font-size: 20px;
+        color: #aaaaaa;
+        
         }
 
         footer span {
@@ -100,7 +103,7 @@ body {
             background: rgba(107, 21, 21, 0.651);
             box-shadow:rgba(0,0,0,0.5);
             padding-top: 40px;
-            z-index: 1000;
+            z-index: 1;
         }
 
         .sidebar ul {
