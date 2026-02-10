@@ -24,9 +24,9 @@ body {
             max-width: 900px;
             margin: 40px auto;
             padding: 30px;
-            background: rgba(10, 20, 30, 0.85);
+            background: rgba(95, 101, 107, 0.418);
             border-radius: 12px;
-            box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 25px rgba(18, 151, 36, 0.342);
         }
 
         .container h2 {
@@ -48,7 +48,8 @@ body {
 
         label {
             font-weight: bold;
-            color: #00ffcc;
+            color: #4d2f09;
+            text-shadow: 4px 0px 10px#01ff23;
         }
 
         input, textarea {
@@ -57,13 +58,13 @@ body {
             border-radius: 6px;
             border: none;
             background: #0f1f2a;
-            color: #e6f7ff;
-            box-shadow: inset 0 0 8px rgba(0, 229, 255, 0.2);
+            color: #e71404b2;
+            box-shadow: inset 0 0 8px rgba(156, 9, 9, 0.575);
         }
 
         input:focus, textarea:focus {
             outline: none;
-            box-shadow: 0 0 10px #00e5ff;
+            box-shadow: 0 0 10px #0cc25879;
         }
 
         textarea {
@@ -85,7 +86,7 @@ body {
 
         button:hover {
             transform: scale(1.05);
-            box-shadow: 0 0 15px #00ffcc;
+            box-shadow: 0 0 15px #e63e0b;
         }
 
       
@@ -94,7 +95,7 @@ body {
             text-align: center;
             font-size: 2em;
             margin-bottom: 10px;
-            text-shadow: 0 0 15px #00e5ff;
+            text-shadow: 0 0 15px #9e6418;
         }
         .sidebar {
         position: fixed;
@@ -151,20 +152,23 @@ body {
             max-width: 900px;
             margin: 40px auto;
             padding: 30px;
-            background: rgba(10, 20, 30, 0.85);
+            background: rgba(95, 101, 107, 0.418);
             border-radius: 12px;
-            box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+            box-shadow: 0 0 25px rgba(18, 151, 36, 0.342);
         }
         .description h2
         {
             text-align: center;
-            color: #00e5ff;
+            color: #0eb6c9a9;
             margin-bottom: 10px;
-            font-size: 50px;
+            font-size: 45px;
+            text-shadow: 7px 2px 5px #92170e;
+            
         }
         .description p {
             text-align: center;
-            color: #00ffcc;
+            color: #1d6e5e;
             margin-bottom: 30px;
             font-size: 30px;
+            text-shadow: 7px 2px 25px #a5a3a0;
         }
