@@ -1,5 +1,5 @@
-body {
-            margin: 0;
+        body {
+        margin: 0;
             color: #ffffff;
             background-image: url(/images/Image\ fond\ clan\ des\ ombres.webp);
             background-repeat: no-repeat;
@@ -9,21 +9,19 @@ body {
         }
 
         header {
-            
-            padding: 80px 20px;
             text-align: center;
+            padding: 80px 20px;
+            margin: 50px 15%;
         }
 
         header h1 {
             font-size: 60px;
-            margin-bottom: 10px;
             text-shadow: 0 0 15px #00eaff;
         }
 
         header p {
+
             font-size: 30px;
-            max-width: 700px;
-            margin: auto;
         }
 
         main {
@@ -92,7 +90,7 @@ body {
 
         .sidebar a {
             display: block;
-            padding: 100px 10px;
+            padding: 65px 10px;
             color: #00eaff;
             text-decoration: none;
             font-size: 20px;
@@ -104,3 +102,60 @@ body {
         main {
             margin-right: 24px;
         }
+@media (max-width: 1420px)
+{
+    .card
+    {
+       width: 800px;
+    }
+    
+}
+@media(max-width: 1270px)
+{ 
+    .sidebar
+    {
+    
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 150px;
+        height: 1000px;
+        padding-top: 100px;
+    }
+    .sidebar a
+    {
+        padding: 80px,5px;
+    }
+    
+}
+@media(max-width:1200px)
+{
+   .card
+    {
+        margin-left: 30px;
+        width: 600px;
+    }
+}
+@media(max-width:980px)
+{
+   .card
+    {
+        margin-left: -50px;
+        width: 500px;
+    }
+}
+@media(max-width:860px)
+{
+   .card
+    {
+        width: 400px;
+    }
+}
+@media(max-width:700px)
+{
+   .card
+    {
+        width: 300px;
+    }
+    
+}

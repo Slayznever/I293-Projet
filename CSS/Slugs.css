@@ -9,7 +9,6 @@ body
     background-position: center;
 }
 header {
-    
     padding: 80px 20px;
     text-align: center;
 }
@@ -109,7 +108,7 @@ a
 
 .sidebar a {
     display: block;
-    padding: 100px 10px;
+    padding: 65px 10px;
     color: #11b7f8f3;
     text-decoration: none;
     font-size: 20px;
@@ -211,3 +210,70 @@ box-shadow: #1e8a4250;
     box-shadow: 0 0 20px #118d4050;
 }
 
+
+@media(max-width: 1270px)
+{ 
+    .sidebar
+    {
+    
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 150px;
+        height: 1000px;
+        padding-top: 100px;
+    }
+    .sidebar a
+    {
+        padding: 80px,5px;
+    }
+    
+}
+@media(max-width:1200px)
+{
+   section
+    {
+        margin-left: 30px;
+        width: 600px;
+    }
+    
+}
+@media(max-width:980px)
+{
+   section
+    {
+        margin-left: -50px;
+        width: 500px;
+    }
+    header
+    {
+       margin-left: 70px;
+        width: 500px; 
+    }
+}
+@media(max-width:860px)
+{
+   .card.slugs
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .card.burpy
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   header
+    {
+       margin-left: 10px;
+        width: 400px; 
+    }
+}
+@media(max-width:770px)
+{
+    section
+    {
+       margin-left: -50px;
+        width: 300px; 
+    }
+}
