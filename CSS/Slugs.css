@@ -209,8 +209,230 @@ box-shadow: #1e8a4250;
     margin-bottom: 30px;
     box-shadow: 0 0 20px #118d4050;
 }
-
-
+#burpyvelo:hover
+{
+    content: url(../images/Burpy_velo.webp);
+}
+#blastipedevelo:hover
+{
+   content: url(../images/Blastipede_velo.webp); 
+}
+#HopRockvelo:hover
+{
+   content: url(../images/HopRock_velo.webp); 
+}
+#Flaringovelo:hover
+{
+   content: url(../images/Flaringo_velo.webp); 
+}
+#ElementaireFeuvelo:hover
+{
+   content: url(../images/ElementaireFeu_velo.webp); 
+}
+#Forgeusevelo:hover
+{
+   content: url(../images/Forgeuse_velo.webp); 
+}
+#GreNukevelo:hover
+{
+   content: url(../images/Grenuke_velo.webp); 
+}
+#Firenzarvelo:hover
+{
+    content: url(../images/Firenzar_velo.webp);
+}
+#Aquabeekvelo:hover
+{
+    content: url(../images/Aquabeek_velo.webp);
+}
+#MakoBreakervelo:hover
+{
+    content: url(../images/Makobreaker_velo.webp);
+}
+#Bubbaleonevelo:hover
+{
+    content: url(../images/Bubbaleone_velo.webp);
+}
+#WaterElementalvelo:hover
+{
+    content: url(../images/WaterElemental_velo.webp);
+}
+#Lariatvelo:hover
+{
+    content: url(../images/Lariat_velo.webp);
+}
+#Jellyishvelo:hover
+{
+    content: url(../images/Jellyish_velo.webp);
+}
+#Tenashervelo:hover
+{
+    content: url(../images/Tenasher_velo.webp);
+}
+#SpikeShadevelo:hover
+{
+    content: url(../images/SpikeShade_velo.webp);
+}
+#FrostCrawlervelo:hover
+{
+    content: url(../images/FrostCrawler_velo.webp);
+}
+#Narwhaddlevelo:hover
+{
+    content: url(../images/Narwhaddle_velo.webp);
+}
+#Crystalydvelo:hover
+{
+    content: url(../images/Crystalyd_velo.webp);
+}
+#Lavalynxvelo:hover
+{
+    content: url(../images/Lavalynx_velo.webp);
+}
+#Rammstonevelo:hover
+{
+    content: url(../images/Rammstone_velo.webp);
+}
+#EarthElementalvelo:hover
+{
+    content: url(../images/EarthElemental_velo.webp);
+}
+#Arachnetvelo:hover
+{
+    content: url(../images/Arachnet_velo.webp);
+}
+#GeoShardvelo:hover
+{
+    content: url(../images/GeoShard_velo.webp);
+}
+#Diggrixvelo:hover
+{
+    content: url(../images/Diggrix_velo.webp);
+}
+#SandAnglervelo:hover
+{
+    content: url(../images/SandAngler_velo.webp);
+}
+#Armasheltvelo:hover
+{
+    content: url(../images/Armashelt_velo.webp);
+}
+#Threshervelo:hover
+{
+    content: url(../images/Thresher_velo.webp);
+}
+#SpeedStingervelo:hover
+{
+    content: url(../images/SpeedStinger_velo.webp);
+}
+#Polerovelo:hover
+{
+    content: url(../images/Polero_velo.webp);
+}
+#SlickSilvervelo:hover
+{
+    content: url(../images/SlickSilver_velo.webp);
+}
+#Vinedrillvelo:hover
+{
+    content: url(../images/Vinedrill_velo.webp);
+}
+#DirtUrchinvelo:hover
+{
+    content: url(../images/DirtUrchin_velo.webp);
+}
+#Neotoxvelo:hover
+{
+    content: url(../images/Neotox_velo.webp);
+}
+#Tormatovelo:hover
+{
+    content: url(../images/Tormato_velo.webp);
+}
+#Piepervelo:hover
+{
+    content: url(../images/Pieper_velo.webp);
+}
+#Gazzervelo:hover
+{
+    content: url(../images/Gazzer_velo.webp);
+}
+#AirElementalvelo:hover
+{
+    content: url(../images/AirElemental_velo.webp);
+}
+#Hoverbugvelo:hover
+{
+    content: url(../images/Hoverbug_velo.webp);
+}
+#Slyrenvelo:hover
+{
+    content: url(../images/Slyren_velo.webp);
+}
+#Flatulorhinkusvelo:hover
+{
+    content: url(../images/Flatulorhinkus_velo.webp);
+}
+#Toxisvelo:hover
+{
+    content: url(../images/NoImageFound.webp);
+}
+#Tazerlingvelo:hover
+{
+    content: url(../images/Tazerling_velo.webp);
+}
+#Xmittervelo:hover
+{
+    content: url(../images/Xmitter_velo.webp);
+}
+#Frightgeistvelo:hover
+{
+    content: url(../images/Frightgeist_velo.webp);
+}
+#EnergyElementalvelo:hover
+{
+    content: url(../images/EnergyElemental_velo.webp);
+}
+#Fandangovelo:hover
+{
+    content: url(../images/Fandango_velo.webp);
+}
+#Enigmovelo:hover
+{
+    content: url(../images/Enigmo_velo.webp);
+}
+#Phosphorovelo:hover
+{
+    content: url(../images/Phosphoro_velo.webp);
+}
+#WhiteBoonvelo:hover
+{
+    content: url(../images/WhiteBoon_velo.webp);
+}
+#Midasvelo:hover
+{
+    content: url(../images/Midas_velo.webp);
+}
+#Glowbyssvelo:hover
+{
+    content: url(../images/Glowbyss_velo.webp);
+}
+#Hypnogrifvelo:hover
+{
+    content: url(../images/Hypnogrif_velo.webp);
+}
+#Negashadevelo:hover
+{
+    content: url(../images/Negashade_velo.webp);
+}
+#Thuggletvelo:hover
+{
+    content: url(../images/Thugglet_velo.webp);
+}
+#Hexletvelo:hover
+{
+    content: url(../images/Hexlet_velo.webp);
+}
 @media(max-width: 1270px)
 { 
     .sidebar
