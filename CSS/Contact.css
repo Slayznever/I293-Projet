@@ -1,8 +1,11 @@
 body {
-    margin: 0;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    background: radial-gradient(circle at top, #1b2b3a, #05080c);
-    color: #e6f7ff;
+        margin: 0;
+    color: #ffffff;
+    background-image: url(/images/EliKordClanDesOmbres.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 header {
     position: relative;
@@ -21,9 +24,9 @@ header h1 {
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background: rgba(95, 101, 107, 0.418);
+    background: rgba(95, 101, 107, 0.767);
     border-radius: 12px;
-    box-shadow: 0 0 25px rgba(18, 151, 36, 0.342);
+    box-shadow: 0 0 25px rgba(18, 151, 36, 0.664);
 }
 .container h2 {
     text-align: center;
@@ -57,10 +60,12 @@ input:focus, textarea:focus {
     outline: none;
     box-shadow: 0 0 10px #0cc25879;
 }
+
 textarea {
     resize: vertical;
     min-height: 120px;
 }
+
 button {
     padding: 15px;
     font-size: 1.1em;
@@ -139,9 +144,9 @@ a
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
-    background: rgba(95, 101, 107, 0.418);
+    background: rgba(95, 101, 107, 0.767);
     border-radius: 12px;
-    box-shadow: 0 0 25px rgba(18, 151, 36, 0.342);
+    box-shadow: 0 0 25px rgba(18, 151, 36, 0.664);
 }
 .description h2
 {
@@ -153,7 +158,7 @@ a
 }
 .description p {
     text-align: center;
-    color: #1d6e5e;
+    color: #0fa2c7a6;
     margin-bottom: 30px;
     font-size: 30px;
     text-shadow: 7px 2px 25px #a5a3a0;
