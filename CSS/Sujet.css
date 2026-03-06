@@ -153,9 +153,26 @@
 }
 @media(max-width:700px)
 {
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ fond\ clan\ des\ ombres.webp);
+    }
    .card
     {
         width: 300px;
     }
     
+}
+@media(max-width:300px)
+{
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ fond\ clan\ des\ ombres.webp);
+    }
+    .card
+    {
+        width: 200px;
+    }
 }

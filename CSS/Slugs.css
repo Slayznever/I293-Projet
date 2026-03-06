@@ -494,9 +494,30 @@ box-shadow: #1e8a4250;
 }
 @media(max-width:770px)
 {
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs.jpg);
+    }
     section
     {
        margin-left: -50px;
         width: 300px; 
+    }
+}
+@media(max-width:300px)
+{
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs.jpg);
+    }
+    .card
+    {
+        width: 200px;
+    }
+    .sidebar
+    {
+        height: 1600px;
     }
 }

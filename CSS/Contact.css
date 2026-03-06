@@ -245,5 +245,10 @@ a
         margin-left: 10px;
         width: 320px;
     } 
+    body
+    {
+        background-image: none;
+        background-image: url(../images/EliKordClanDesOmbres.webp);
+    }
   
 }

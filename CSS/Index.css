@@ -158,6 +158,38 @@ main {
     {
         width: 400px;
     }
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs\ paysage.webp);
+    }
 }
-        
+
+@media(max-width:300px)
+{
+    .card
+    {
+        width: 140px;
+        top: 90px;
+        right: 60px;
+        height: 700px;
+    }
+    footer
+    {
+        font-size: 10px;
+    }
+    #LogoSlugterra
+    {
+        width: 200px;
+    }
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs\ paysage.webp);
+    }
+    .sidebar
+    {
+        width: 100px;
+    }
+}   
 

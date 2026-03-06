@@ -21,13 +21,17 @@ header h1 {
     letter-spacing: 2px;
 }
 footer {
-    position: relative;
-    z-index: 3;
+   align-self: center;
+    position: fixed;
+    width: 100%;
     background-color: #000;
     text-align: center;
     padding: 11px;
     font-size: 20px;
     color: #aaaaaa;
+    z-index: 3;
+    
+    bottom: 0;
 }
 footer span {
     color: #00eaff;
@@ -166,5 +170,10 @@ a
         font-size: 30px;
         padding: 100px;
         width:150px;
+    }
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Lettre.png);
     }
 }
