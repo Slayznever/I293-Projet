@@ -100,7 +100,7 @@ body {
             right: 0;
             top: 0;
             width: 220px;
-            height: 1000px;
+            height: 1200px;
             background: rgba(107, 21, 21, 0.651);
             box-shadow:rgba(0,0,0,0.5);
             padding-top: 40px;
@@ -196,6 +196,10 @@ body {
 }
 @media(max-width:770px)
 {
+    body{
+        background-image: none;
+        background-color: #00eaff;
+    }
     section
     {
        margin-left: -50px;

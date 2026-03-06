@@ -89,8 +89,8 @@ a
     right: 0;
     top: 0;
     width: 220px;
-    height: 1000px;
-    background: rgba(25, 117, 236, 0.13);
+    height: 1200px;
+    background: linear-gradient(45deg, #23cadd88, #1bc98688, #92170e7c , #9e6418bd,  #a5a3a0b9);
     box-shadow:rgba(11, 36, 104, 0.986);
     padding-top: 40px;
     z-index: 1;
