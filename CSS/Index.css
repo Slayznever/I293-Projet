@@ -28,42 +28,47 @@ header
     justify-content: center;
     z-index: 3;
 }
-#LogoSlugterra {
+#LogoSlugterra 
+{
     width: 580px;
 }
-.card {
-            position: relative;
-            justify-content: center;
-            align-self: center;
-            background: #06868a69;
-            padding: 20px;
-            top: 100px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px #1092cefb;
-            font-size: 30px;
+.card 
+{
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    background: #06868a69;
+    padding: 20px;
+    top: 100px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #1092cefb;
+    font-size: 30px;
  }
-footer {
+footer 
+{
     align-self: center;
     position: fixed;
     width: 100%;
     background-color: #000;
     text-align: center;
     padding: 11px;
-    font-size: 20px;
+    font-size: 15px;
     color: #aaaaaa;
     z-index: 3;
     
     bottom: 0;
 }
 
-footer span {
+footer span 
+{
     color: #00eaff;
 }
 a
- {
+{
     color:#00eaff ;
 }
-.sidebar {
+.sidebar 
+{
     position: fixed;
     right: 0;
     top: 0;
@@ -75,17 +80,20 @@ a
     z-index: 1;
 }
 
-.sidebar ul {
+.sidebar ul
+{
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.sidebar li {
+.sidebar li 
+{
     margin: 10px 0;
 }
 
-.sidebar a {
+.sidebar a 
+{
     display: block;
     padding: 65px 10px;
     color: #11b7f8f3;
@@ -93,10 +101,12 @@ a
     font-size: 20px;
 }
 
-.sidebar a:hover {
+.sidebar a:hover 
+{
     background: rgba(20, 6, 138, 0.103);
 }
-main {
+main 
+{
     margin-right: 24px;
 }
 @media (max-width: 1279px)

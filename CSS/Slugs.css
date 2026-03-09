@@ -9,18 +9,27 @@ body
     background-position: center;
 }
 header {
-    padding: 80px 20px;
+    position: relative;
+    background: linear-gradient(45deg, #235edd, #1bc986, #92170ef5 , #9e6418cc,  #a5a3a0a8, #9e6418cc,#92170ef5,#1bc986,#235edd);
+    padding: 10px;
     text-align: center;
+    box-shadow: #04f872de;
+    z-index: 3;
+}
+header h1 {
+    margin: 0;
+    color: #003344;
+    letter-spacing: 1px;
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-shadow: 0 0 15px #00eaff;
 }
 
 header p {
-    font-size: 30px;
+    font-size: 20px;
     max-width: 700px;
     margin: auto;
 }
@@ -37,7 +46,7 @@ h2 {
 }
 
 .card.fire {
-    background: rgba(128, 41, 19, 0.37);
+    background: rgba(128, 41, 19, 0.664);
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -57,7 +66,7 @@ gap: 20px;
 border-radius: 15px;
 padding: 15px;
 margin: 20px 0;
-background-color: #830d0d38;
+background-color: #830d0d70;
 box-shadow: rgba(165, 66, 66, 0.418);
 }
 .card.slugs img {
@@ -131,7 +140,7 @@ gap: 20px;
 border-radius: 15px;
 padding: 15px;
 margin: 20px 0;
-background-color: #830d0d38;
+background-color: #830d0d70;
 box-shadow: rgba(165, 66, 66, 0.418);
 }
 .card.burpy img {
@@ -468,11 +477,7 @@ box-shadow: #1e8a4250;
         margin-left: -50px;
         width: 500px;
     }
-    header
-    {
-       margin-left: 70px;
-        width: 500px; 
-    }
+    
 }
 @media(max-width:860px)
 {
@@ -486,11 +491,7 @@ box-shadow: #1e8a4250;
     display: flex;
     flex-direction: column;
    }
-   header
-    {
-       margin-left: 10px;
-        width: 400px; 
-    }
+   
 }
 @media(max-width:770px)
 {
@@ -504,6 +505,39 @@ box-shadow: #1e8a4250;
        margin-left: -50px;
         width: 300px; 
     }
+    
+}
+@media(max-width:540px)
+{
+    section
+    {
+       margin-left: -70px;
+        width: 200px; 
+    }
+    
+}
+
+@media(max-width:400px)
+{
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs.jpg);
+    }
+    .card
+    {
+        width: 140px;
+    }
+    .card.slugs
+    {
+        width: 150px;
+    }
+    img
+    {
+        margin-left: -50;
+        max-width: 100%;
+    }
+    
 }
 @media(max-width:300px)
 {
@@ -519,5 +553,16 @@ box-shadow: #1e8a4250;
     .sidebar
     {
         height: 1600px;
+    }
+}
+@media(max-height:800px)
+{
+    .sidebar li
+    {
+        margin:2px;
+    }
+    .sidebar a
+    {
+        padding: 40px;
     }
 }
