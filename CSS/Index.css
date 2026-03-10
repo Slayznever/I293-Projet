@@ -1,6 +1,6 @@
 html, body {
     margin:0;
-    min-height: 100%;
+    height: 100%;
 }
 body
 {
@@ -22,7 +22,7 @@ main {
 }
 header
 {
-    position: fixed;
+    position: relative;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -39,32 +39,28 @@ header
     align-self: center;
     background: #06868a69;
     padding: 20px;
-    top: 100px;
+    top: 50px;
     border-radius: 15px;
     box-shadow: 0 0 20px #1092cefb;
     font-size: 30px;
  }
-footer 
-{
-    align-self: center;
-    position: fixed;
-    width: 100%;
+footer {
+    position: relative;
+    z-index: 3;
     background-color: #000;
     text-align: center;
     padding: 11px;
-    font-size: 15px;
+    font-size: 20px;
     color: #aaaaaa;
-    z-index: 3;
+    justify-self: flex-end;
     
-    bottom: 0;
 }
 
-footer span 
-{
+footer span {
     color: #00eaff;
 }
 a
-{
+ {
     color:#00eaff ;
 }
 .sidebar 
@@ -116,17 +112,15 @@ main
         padding: 15spx;
         border-radius: 10px;
         font-size: 25px;
-        top: 150px;
     }
 }
-@media(max-width: 1125px)
+@media(max-width: 1100px)
 {
     .card
     {
-        padding: 20px;
+        padding: 10px;
         border-radius: 0px;
         font-size: 20px;
-        top: 225px;
     
     } 
 }
@@ -160,13 +154,13 @@ main
     
     .card
     {
-        top: 70px;
+        top: 20px;
         right: 80px;
-        height: 480px;
+        height: 525px;
     }
     #LogoSlugterra
     {
-        width: 400px;
+        width: 300px;
     }
     body
     {
@@ -174,15 +168,25 @@ main
         background-image: url(../images/Image\ slugs\ paysage.webp);
     }
 }
+@media(max-width:380px)
+{
+    .card
+    {
+        width: 140px;
+        right: 60px;
+        height: 740px;
+    }
+    
+    
+}   
 
 @media(max-width:300px)
 {
     .card
     {
         width: 140px;
-        top: 90px;
         right: 60px;
-        height: 700px;
+        height: 720px;
     }
     footer
     {
@@ -201,5 +205,6 @@ main
     {
         width: 100px;
     }
+    
 }   
 

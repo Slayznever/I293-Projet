@@ -506,15 +506,22 @@ box-shadow: #1e8a4250;
         width: 300px; 
     }
     
+    
 }
 @media(max-width:540px)
 {
     section
     {
-       margin-left: -70px;
         width: 200px; 
     }
-    
+    div
+    {
+        margin-left: -20px;
+    }
+    .card.burpy
+    {
+        margin-left: -10px;
+    }
 }
 
 @media(max-width:400px)
@@ -530,11 +537,11 @@ box-shadow: #1e8a4250;
     }
     .card.slugs
     {
-        width: 150px;
+        width: 120px;
     }
     img
     {
-        margin-left: -50;
+        margin-left: -40;
         max-width: 100%;
     }
     
@@ -546,15 +553,12 @@ box-shadow: #1e8a4250;
         background-image: none;
         background-image: url(../images/Image\ slugs.jpg);
     }
-    .card
-    {
-        width: 200px;
-    }
     .sidebar
     {
-        height: 1600px;
+        width: 75px;
     }
 }
+
 @media(max-height:800px)
 {
     .sidebar li
