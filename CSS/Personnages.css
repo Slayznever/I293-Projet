@@ -11,7 +11,7 @@ body {
         header {
             
             position: relative;
-            background: linear-gradient(45deg, #440808, #831915, #92170e , #e40e0e,  #ff2002dc, #e40e0e,#92170e,#831915,#440808);
+            background: linear-gradient(45deg, #44080841, #83191596, #92170ea6 , #e40e0ed0,  #ff2002, #e40e0e,#92170e,#831915,#440808);
             padding: 10px;
             text-align: center;
             box-shadow: #04f872de;
@@ -148,7 +148,7 @@ body {
         right: 0;
         top: 0;
         width: 150px;
-        height: 1000px;
+        height: 1700px;
         padding-top: 100px;
     }
     .sidebar a

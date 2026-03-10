@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     color: #ffffff;
+    background-color: #000;
     background-image: url(/images/Image\ slugs.jpg );
     background-repeat: no-repeat;
     background-size: cover;
@@ -451,8 +452,8 @@ box-shadow: #1e8a4250;
         position: fixed;
         right: 0;
         top: 0;
-        width: 150px;
-        height: 1000px;
+        width: 100px;
+        height: 1700px;
         padding-top: 100px;
     }
     .sidebar a
@@ -533,11 +534,11 @@ box-shadow: #1e8a4250;
     }
     .card
     {
-        width: 140px;
+        width: 160px;
     }
     .card.slugs
     {
-        width: 120px;
+        width: 150px;
     }
     img
     {

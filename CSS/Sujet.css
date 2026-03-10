@@ -9,19 +9,21 @@
         }
 
         header {
+            position: relative;
+            background: linear-gradient(45deg, #38057246, #20044d7c, #28035879 , #24046ef8,  #140246, #24046e,#280358,#20044d,#15022b);
+            padding: 10px;
             text-align: center;
-            padding: 80px 20px;
-            margin: 50px 15%;
+            z-index: 3;
         }
 
         header h1 {
-            font-size: 60px;
+            font-size: 40px;
             text-shadow: 0 0 15px #00eaff;
         }
 
         header p {
 
-            font-size: 30px;
+            font-size: 20px;
         }
 
         main {
@@ -119,7 +121,7 @@
         right: 0;
         top: 0;
         width: 150px;
-        height: 1000px;
+        height: 1700px;
         padding-top: 100px;
     }
     .sidebar a
@@ -164,7 +166,24 @@
     }
     
 }
-@media(max-width:300px)
+@media(max-width:540px)
+{
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ fond\ clan\ des\ ombres.webp);
+    }
+    .card
+    {
+        width: 250px;
+        margin-left:-70px ;
+    }
+    .sidebar
+    {
+        width: 75px;
+    }
+}
+@media(max-width:370px)
 {
     body
     {
