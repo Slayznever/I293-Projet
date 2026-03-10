@@ -10,8 +10,12 @@ body {
 
         header {
             
-            padding: 80px 20px;
+            position: relative;
+            background: linear-gradient(45deg, #440808, #831915, #92170e , #e40e0e,  #ff2002dc, #e40e0e,#92170e,#831915,#440808);
+            padding: 10px;
             text-align: center;
+            box-shadow: #04f872de;
+            z-index: 3;
         }
 
         header h1 {
@@ -99,11 +103,11 @@ body {
             position: fixed;
             right: 0;
             top: 0;
-            width: 220px;
+            width: 210px;
             height: 1200px;
-            background: rgba(107, 21, 21, 0.651);
+            background: linear-gradient(45deg, #440808be, #831915ad, #92170e7e , #e40e0ea2,  #ff200270, #e40e0ea2,#92170e7e,#831915ad,#440808be);
             box-shadow:rgba(0,0,0,0.5);
-            padding-top: 40px;
+            padding-top: 00px;
             z-index: 1;
         }
 
@@ -169,11 +173,7 @@ body {
         margin-left: -50px;
         width: 500px;
     }
-    header
-    {
-       margin-left: 70px;
-        width: 500px; 
-    }
+    
     .card.personnage
    {
     display: flex;
@@ -189,14 +189,7 @@ body {
     }
     
 }
-@media(max-width:860px)
-{
-   header
-    {
-       margin-left: 10px;
-        width: 400px; 
-    }
-}
+
 @media(max-width:770px)
 {
     body{
@@ -227,6 +220,7 @@ body {
    {
     max-width: 100%;
     }
+   
 }
 @media(max-width:450px)
 {
