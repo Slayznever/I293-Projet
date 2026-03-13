@@ -219,6 +219,7 @@ box-shadow: #1e8a4250;
     margin-bottom: 30px;
     box-shadow: 0 0 20px #118d4050;
 }
+/*Images de hover des slugs*/
 #burpyvelo:hover
 {
     content: url(../images/Burpy_velo.webp);
