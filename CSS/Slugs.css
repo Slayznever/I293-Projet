@@ -511,6 +511,11 @@ box-shadow: #1e8a4250;
 }
 @media(max-width:540px)
 {
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs.jpg);
+    }
     section
     {
         width: 200px; 
@@ -527,6 +532,11 @@ box-shadow: #1e8a4250;
 
 @media(max-width:400px)
 {
+    body
+    {
+        background-image: none;
+        background-image: url(../images/Image\ slugs.jpg);
+    }
     body
     {
         background-image: none;
@@ -557,6 +567,7 @@ box-shadow: #1e8a4250;
     .sidebar
     {
         width: 75px;
+        height: 1000px;
     }
 }
 

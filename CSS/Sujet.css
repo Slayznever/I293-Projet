@@ -181,6 +181,7 @@
     .sidebar
     {
         width: 75px;
+        height: 1000px;
     }
 }
 @media(max-width:370px)

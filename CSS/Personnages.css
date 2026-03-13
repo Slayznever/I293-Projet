@@ -211,6 +211,10 @@ body {
 }
 @media(max-width:540px)
 {
+    body{
+        background-image: none;
+        background-image: url(../images/équipe\ shane.webp);
+    }
     section
     {
        margin-left: -100px;
@@ -224,7 +228,10 @@ body {
 }
 @media(max-width:450px)
 {
-    
+    body{
+        background-image: none;
+        background-image: url(../images/équipe\ shane.webp);
+    }
     section
     {
        margin-left: -60px;
@@ -233,6 +240,10 @@ body {
 }
 @media(max-width:400px)
 {
+    body{
+        background-image: none;
+        background-image: url(../images/équipe\ shane.webp);
+    }
     header h1
     {
         font-size: 40px;
@@ -246,9 +257,14 @@ body {
 }
 @media(max-width:340px)
 {
+    body{
+        background-image: none;
+        background-image: url(../images/équipe\ shane.webp);
+    }
     .sidebar
     {
         width: 90px;
+        height: 1000px;
     }
 }
 
